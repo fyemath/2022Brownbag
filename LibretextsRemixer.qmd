@@ -1,0 +1,242 @@
+---
+title: Customizing OER books on LibreTexts
+author: Fei Ye
+institute: Department of Mathematics and Computer Science
+format: 
+  revealjs:
+    theme: moon
+    # background-color: 
+    transition: slide
+    transition-speed: fast
+    progress: true
+    plugins:
+      - overview
+      - menu
+      - PdfExport
+      - fullscreen
+    logo: "img/QCC-logo.png"
+    # header-includes: |
+    #   <style></style>
+    # background-image: "img/QCC-zoom-2.jpg"
+    background-size: cover
+    background-repeat: no-repeat
+    css: custom.css
+    self-contained: true
+    output-file: "_output/index.html"
+    mouse-wheel: true
+    touch: true
+    # controls: true
+---
+
+# Getting Started
+
+## [Features of LibreTexts](https://libretexts.org)
+
+![Features of LibreTexts.org](img/LibreTexts-Features.png){fig-align="center"}
+
+::: footer
+<https://libretexts.org/>
+:::
+
+## [Advanced Futures](https://libretexts.org/advanced.html) {.smaller}
+
+- Embedded multimedia
+
+- Dynamic Figures
+
+- Jupyter code embeds
+
+- Hypothes.is annotation overlays
+
+- Print on demand
+
+- Complete Printed Version
+
+- One Minute Import into LMS
+
+
+
+## Resources {.smaller}
+
+- Contact: [info@libretexts.org](mailto:info@libretexts.org) (You may send an instructor account request to this email).
+
+- A Quick Guide to LibreTexts for New Instructors <https://tinyurl.com/bddcvb68>.
+
+- LibreTexts blog <https://blog.libretexts.org/> (includes news, announcemenets and other info.)
+
+- LibreTexts Youtube channel <https://tinyurl.com/mryw6hxt> (includes tutorials, past video recordings of Librefest and other workshops/conferences).
+
+- LibreTexts construction guide <https://tinyurl.com/hb7by6ha>.
+
+- LibreTexts construction forum <https://tinyurl.com/ws3pbyu3>.
+
+- LibreText training tutorials <https://tinyurl.com/yewvven9>
+
+## A workflow
+
+- Planning: create a list of section that you will need for the customized book.
+
+- Building the Remix Map on LibreTexts using the OER Remixer 
+
+- Publish
+
+- Edit/Reremix and republish
+
+::: footer
+For detailed information, please read "[How to Make a LibreTexts Remix](https://tinyurl.com/2p8zywrj)".
+:::
+
+# Planning
+
+## Gather info and organize your remix
+
+Create a table (using Excel) that contains the following info: new book title, new chapter numbers and titles, new section numbers and titles, source section numbers and titles, source book.
+
+![Planning Remix using Excel](img/RemixPlanningExcel.png){fig-align="center"}
+
+# Building Remix
+
+## Create an account and log in
+
+- [Contact LibreTexts](mailto:info@libretexts.org) to request an instructor account in a specific library
+
+- Go the the LibreTexts library that you have an instructor account and log in.
+  ![Log in LibreTexts Library](img/LoginPage.png){fig-align="center"}
+
+## Locate the remixer
+
+The Remixer can be found in `Tools` on the left side navigation panel.
+
+![Locate Remixer in Tools](img/LocationRemixer.png){fig-align="center"}
+
+## Set remixer options
+
+Enter the title and choose remixer option(s). The default option works fine.
+
+![Set Remixer Options](img/RemixerOptions.png){fig-align="center"}
+
+## Locate source contents
+
+You may choose contents that you will use for all libraries of LibreTexts.
+
+![Library Panel](img/LibraryPanel.png){fig-align="center"}
+
+## Create a remix map
+
+A remix map can be created by dragging sections/chapters from the library panel to dropping them to the remixer panel. Chapter and section titles can be renamed by double clicking them.
+
+![Creating Contents by drag-and-drop](img/CreatingContents.png){fig-align="center"}
+
+## Rearrange and edit
+
+Rearrange can be done by drag-and-drop.  Tools for editing chapters and pages are located right above the remixer panel.
+
+![Editing Pages](img/Editing.png){fig-align="center"}
+
+# Publish your Remix
+
+## Save to server
+
+:::: {.columns}
+::: {.column width="50%"}
+- Click the Save to Server Button.
+  ![Save to Server Button](img/SaveServerButton.png){fig-align="center"}
+:::
+::: {.column width="50%"}
+- Review and save to server.
+  ![Review the publishing summary and content](img/SummaryOfPublishing.png){fig-align="center"}
+:::
+::::
+
+## Review the published book
+
+At the bottom of the remixer panel, you will find the link to the published book.
+
+![Log of the publishing process](img/LogOfSaving.png){fig-align="center"}
+
+# Edit Published Remix
+
+## Sandbox
+
+Before being moved to a college hub, a published remix can be located in the sandbox of your account.
+
+![Sandbox under account](img/WhereSandbox.png){fig-align="center"}
+
+## Locate the published book
+
+Published books can be found in the personal sandbox.
+
+![Location of personal sandbox in LibreTexts](img/PersonalSandbox.png){fig-align="center"}
+
+## Edit or reremix a book
+
+To edit or reremix a book in the sandbox, go to the remixer and switch it to the `Edit Remix Mode`.
+
+![Edit remix mode](img/EditMode.png){fig-align="center"}
+
+## Find the remixed book to edit or reremix
+
+Once the remixer is in the edit mode, you see the sandbox in the library panel.
+
+![Sandbox in library panel](img/SandboxInLibrary.png){fig-align="center"}
+
+## Select and load the book to the Remixer
+
+A selected book can be loaded to the Remixer by clicking the `REREMIX SELECTION` button.
+
+![](img/LoadToRemixer.png){fig-align="center"}
+
+## Reremix and republish the book
+
+The book can be reremixed and republished as before.
+
+![Reremix and publish](img/ReremixAndPublish.png){fig-align="center"}
+
+## Move the book to a campus hub
+
+To make the remix book public, you need to contact [info@libretexts.org](mailto:info@libretexts.org) to move it to a Campus Hub. If a campus hub doesnot exist, you may ask them to create one.
+
+# Modify, Develop and Integrate
+
+## Modify contents {.smaller}
+
+- Open the page (section) that you want to modify.
+
+- Fork the page.  
+  ![Fork a page](img/ForkPage.png){fig-align="center"}
+
+- Click `Edit` button to modify.  
+  ![The edit page button](img/EditPage.png){fig-align="center"}
+
+- Click  `Save` to save the modification.  
+  ![The save button of the editor](img/SaveModification.png){fig-align="center"}
+
+## Workflows of developing a book
+
+![Different workflows of developing books on Libretexts](img/WorkflowAuthoring.png){fig-align="center" height="520"}
+
+::: footer
+This image was taken from
+ <a href="https://chem.libretexts.org/@go/page/195910">"Harvesting Workflows"</a> by <a href="https://libretexts.org/">LibreTexts</a> which is licensed under <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY</a>.
+:::
+
+## Harvest your books
+
+Suppose contents and a skeleton remix map were created. Then you can use copy-and-paste to add contents to pages. See 
+“A Harvesting Checklist.” 2020. August 16, 2020. <https://chem.libretexts.org/@go/page/148794> for details.
+
+## OER integration
+
+If you found an OER book that is not available on Libretexts, you may fill out an integration request.
+
+<iframe src="https://commons.libretexts.org/harvestrequest" title="https://commons.libretexts.org/harvestrequest" width="960" height="500"></iframe>
+
+# LMS Integration
+
+## Integrate a book into Blackboard
+
+LibreTexts provides common cartriges for integration into a learning management system (LMS).
+
+![Download the cartrige for integration](img/LMSIntegration.png){fig-align="center"}
+
+# Thank you for your attention!
