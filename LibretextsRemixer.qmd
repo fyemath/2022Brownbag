@@ -28,7 +28,7 @@ format:
     # controls: true
 ---
 
-# Getting Started
+# Introduction
 
 ## [Features of LibreTexts](https://libretexts.org)
 
@@ -70,7 +70,7 @@ format:
 
 - LibreTexts construction forum <https://tinyurl.com/ws3pbyu3>.
 
-- LibreText training tutorials <https://tinyurl.com/yewvven9>
+- LibreTexts training tutorials <https://tinyurl.com/yewvven9>
 
 ## A workflow
 
@@ -98,7 +98,7 @@ Create a table (using Excel) that contains the following info: new book title, n
 
 ## Create an account and log in
 
-- [Contact LibreTexts](mailto:info@libretexts.org) to request an instructor account in a specific library
+- [Contact LibreTexts](mailto:info@libretexts.org) to request an instructor account in a specific library. Or fill out the request using this link <https://commons.libretexts.org/accountrequest>.
 
 - Go the the LibreTexts library that you have an instructor account and log in.
   ![Log in LibreTexts Library](img/LoginPage.png){fig-align="center"}
@@ -227,9 +227,12 @@ Suppose contents and a skeleton remix map were created. Then you can use copy-an
 
 ## OER integration
 
-If you found an OER book that is not available on Libretexts, you may fill out an integration request.
+If you found an OER book that is not available on LibreTexts, you may fill out an [integration request](https://commons.libreTexts.org/harvestrequest).
 
-<iframe src="https://commons.libretexts.org/harvestrequest" title="https://commons.libretexts.org/harvestrequest" width="960" height="500"></iframe>
+```{r}
+#| echo: false
+knitr::include_url("https://commons.libretexts.org/harvestrequest", height="500")
+```
 
 # LMS Integration
 
