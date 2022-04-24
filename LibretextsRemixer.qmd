@@ -5,6 +5,7 @@ institute: Department of Mathematics and Computer Science
 format: 
   revealjs:
     theme: moon
+    margin: 0.05
     # background-color: 
     transition: slide
     transition-speed: fast
@@ -22,9 +23,12 @@ format:
     background-repeat: no-repeat
     css: custom.css
     self-contained: true
-    output-file: "_output/index.html"
+    output-file: _output/index.html
     mouse-wheel: true
     touch: true
+    # link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/fyemath\.github\.io'
     # controls: true
 ---
 
@@ -100,7 +104,7 @@ Create a table (using Excel) that contains the following info: new book title, n
 
 - [Contact LibreTexts](mailto:info@libretexts.org) to request an instructor account in a specific library. Or fill out the request using this link <https://commons.libretexts.org/accountrequest>.
 
-- Go the the LibreTexts library that you have an instructor account and log in.
+- Go the the LibreTexts library that you have an instructor account and log in.  
   ![Log in LibreTexts Library](img/LoginPage.png){fig-align="center"}
 
 ## Locate the remixer
@@ -229,10 +233,7 @@ Suppose contents and a skeleton remix map were created. Then you can use copy-an
 
 If you found an OER book that is not available on LibreTexts, you may fill out an [integration request](https://commons.libreTexts.org/harvestrequest).
 
-```{r}
-#| echo: false
-knitr::include_url("https://commons.libretexts.org/harvestrequest", height="500")
-```
+<iframe src="https://commons.libretexts.org/harvestrequest" title="https://commons.libretexts.org/harvestrequest" width="960" height="500" data-external="1"></iframe>
 
 # LMS Integration
 
